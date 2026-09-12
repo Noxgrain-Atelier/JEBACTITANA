@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prank 🌈</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .rgb-text {
+      font-size: clamp(45px, 10vw, 130px);
+      font-weight: 900;
+      text-align: center;
+      animation: rgb 2s linear infinite;
+      text-shadow:
+        0 0 10px currentColor,
+        0 0 30px currentColor,
+        0 0 60px currentColor;
+    }
+
+    @keyframes rgb {
+      0% {
+        color: rgb(255, 0, 0);
+      }
+      16% {
+        color: rgb(255, 255, 0);
+      }
+      33% {
+        color: rgb(0, 255, 0);
+      }
+      50% {
+        color: rgb(0, 255, 255);
+      }
+      66% {
+        color: rgb(0, 0, 255);
+      }
+      83% {
+        color: rgb(255, 0, 255);
+      }
+      100% {
+        color: rgb(255, 0, 0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rgb-text">
+    JEBAC TITANA
+  </div>
+</body>
+</html>
